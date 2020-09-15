@@ -1,0 +1,11 @@
+html[theme="dark-mode"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+html[theme="dark-mode"] img,
+picture,
+video {
+  filter: invert(1) hue-rotate(180deg);
+}
+.invert {
+  filter: invert(1) hue-rotate(180deg);
+}
